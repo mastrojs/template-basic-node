@@ -30,9 +30,9 @@ To generate the whole static site (this will create a `generated` folder):
 
 To see how Mastro works, [follow the guide](https://mastrojs.github.io/guide/server-side-components-and-routing/).
 
-To make sure you're on the latest Mastro version:
+To make sure you're using the latest Mastro packages:
 
-    pnpm update @mastrojs/mastro --latest
+    pnpm update "@mastrojs/*" --latest
 
 
 ## Deploy to production
