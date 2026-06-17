@@ -4,15 +4,13 @@ This is a basic TypeScript template for [Mastro](https://mastrojs.github.io) whe
 
 Click the green **Use this template** button in the top right to create your own copy of this repository. Then clone the **Code** to your computer.
 
+
 ## Run locally
 
-If you have multiple projects on your computer that require different Node.js versions, you should install a tool to manage those version for you; for example [Volta](https://volta.sh/) (see [pnpm Support](https://docs.volta.sh/advanced/pnpm)).
+Mastro requires Node.js >=24, which can be installed [via pnpm](https://pnpm.io/next/cli/runtime) – the package manager [recommended by JSR](https://jsr.io/docs/npm-compatibility#installing-and-using-jsr-packages).
+Therefore, first [install pnpm](https://pnpm.io/installation#using-a-standalone-script): On Windows, use the `PowerShell` method. On macOS/Linux use the `curl` method (The `pnpm` version in homebrew isn't able to install Node.js).
 
-Mastro requires Node.js >=24 (unless you want to install a [`URLPattern` polyfill](https://www.npmjs.com/package/urlpattern-polyfill)).
-
-[JSR recommends](https://jsr.io/docs/npm-compatibility#installing-and-using-jsr-packages) to use `pnpm`.
-
-The first time, you need to:
+The first time, you need to install the project dependencies:
 
     pnpm install
 
